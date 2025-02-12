@@ -99,6 +99,9 @@
 	  <MauiXaml Update="Views\Tools\ToolsPage.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
+	  <MauiXaml Update="Views\Tools\WateringToolsPage.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
 	  <MauiXaml Update="Views\Users\UserListPage.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>

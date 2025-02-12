@@ -30,6 +30,9 @@
     <MauiXaml Update="Views\Tools\ToolsPage.xaml">
       <SubType>Designer</SubType>
     </MauiXaml>
+    <MauiXaml Update="Views\Tools\WateringToolsPage.xaml">
+      <SubType>Designer</SubType>
+    </MauiXaml>
     <MauiXaml Update="Views\Users\UserListPage.xaml">
       <SubType>Designer</SubType>
     </MauiXaml>

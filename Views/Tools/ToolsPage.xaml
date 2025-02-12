@@ -58,7 +58,7 @@
                        Padding="15">
                     <Frame.GestureRecognizers>
                         <TapGestureRecognizer Command="{Binding NavigateCommand}"
-                                            CommandParameter="WateringTools"/>
+                            CommandParameter="WateringTools"/>
                     </Frame.GestureRecognizers>
                     <VerticalStackLayout>
                         <Label Text="Watering Tools"

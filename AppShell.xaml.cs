@@ -16,7 +16,7 @@ namespace GardenApp
             // Tools routes
             Routing.RegisterRoute("tools/hand-tools", typeof(Views.HandToolsPage));
             Routing.RegisterRoute("tools/power-tools", typeof(Views.PowerToolsPage));
-            Routing.RegisterRoute("tools/watering-tools", typeof(Views.ToolsPage));
+            Routing.RegisterRoute("tools/watering-tools", typeof(Views.WateringToolsPage));
 
             // Garden Care routes
             Routing.RegisterRoute("gardencare/fertilizers", typeof(Views.GardenCarePage));

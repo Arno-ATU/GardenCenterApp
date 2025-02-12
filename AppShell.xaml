@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Shell
+    x:Class="GardenApp.AppShell"
+    xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    xmlns:views="clr-namespace:GardenApp.Views"
+    Shell.FlyoutBehavior="Disabled"
+    Title="GardenApp">
+
+    <TabBar>
+        <Tab Title="Home">
+            <ShellContent 
+                Title="Home"
+                ContentTemplate="{DataTemplate views:HomePage}"
+                Route="Home" />
+        </Tab>
+
+        <Tab Title="Plants">
+            <ShellContent 
+                Title="Plants"
+                ContentTemplate="{DataTemplate views:PlantsPage}"
+                Route="Plants" />
+        </Tab>
+
+        <Tab Title="Tools">
+            <ShellContent 
+                Title="Tools"
+                ContentTemplate="{DataTemplate views:ToolsPage}"
+                Route="Tools" />
+        </Tab>
+
+        <Tab Title="Garden Care">
+            <ShellContent 
+                Title="Garden Care"
+                ContentTemplate="{DataTemplate views:GardenCarePage}"
+                Route="GardenCare" />
+        </Tab>
+    </TabBar>
+</Shell>

@@ -3,6 +3,7 @@
     x:Class="GardenApp.AppShell"
     xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
     xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    xmlns:local="clr-namespace:GardenApp"
     xmlns:views="clr-namespace:GardenApp.Views"
     Shell.FlyoutBehavior="Disabled"
     Title="GardenApp">
@@ -35,5 +36,17 @@
                 ContentTemplate="{DataTemplate views:GardenCarePage}"
                 Route="GardenCare" />
         </Tab>
+
+        <ShellContent
+    Title="{Binding UserCartTitle}"
+    ContentTemplate="{DataTemplate views:CartPage}"
+    Route="cart"
+    IsVisible="{Binding IsUserLoggedIn}">
+            <ShellContent.Icon>
+                <FontImageSource Glyph="&#xf07a;"
+                         FontFamily="FontAwesomeSolid"
+                         Color="Goldenrod" />
+            </ShellContent.Icon>
+        </ShellContent>
     </TabBar>
 </Shell>

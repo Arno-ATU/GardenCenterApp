@@ -52,6 +52,12 @@ build_metadata.AdditionalFiles.ManifestResourceName = GardenApp.Resources.Styles
 build_metadata.AdditionalFiles.TargetPath = Resources\Styles\Styles.xaml
 build_metadata.AdditionalFiles.RelativePath = Resources\Styles\Styles.xaml
 
+[C:/Users/aronm/Desktop/GardenApp/Views/Cart/CartPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = GardenApp.Views.Cart.CartPage.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\Cart\CartPage.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\Cart\CartPage.xaml
+
 [C:/Users/aronm/Desktop/GardenApp/Views/GardenCare/FertilizersPage.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = GardenApp.Views.GardenCare.FertilizersPage.xaml
@@ -81,6 +87,12 @@ build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = GardenApp.Views.Home.HomePage.xaml
 build_metadata.AdditionalFiles.TargetPath = Views\Home\HomePage.xaml
 build_metadata.AdditionalFiles.RelativePath = Views\Home\HomePage.xaml
+
+[C:/Users/aronm/Desktop/GardenApp/Views/Login/LoginPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = GardenApp.Views.Login.LoginPage.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\Login\LoginPage.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\Login\LoginPage.xaml
 
 [C:/Users/aronm/Desktop/GardenApp/Views/Plants/IndoorPlantsPage.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml

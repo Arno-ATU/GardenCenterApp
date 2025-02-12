@@ -57,6 +57,21 @@
 	</ItemGroup>
 
 	<ItemGroup>
+	  <AndroidResource Remove="Views\NewFolder1\**" />
+	  <AndroidResource Remove="Views\NewFolder\**" />
+	  <Compile Remove="Views\NewFolder1\**" />
+	  <Compile Remove="Views\NewFolder\**" />
+	  <EmbeddedResource Remove="Views\NewFolder1\**" />
+	  <EmbeddedResource Remove="Views\NewFolder\**" />
+	  <MauiCss Remove="Views\NewFolder1\**" />
+	  <MauiCss Remove="Views\NewFolder\**" />
+	  <MauiXaml Remove="Views\NewFolder1\**" />
+	  <MauiXaml Remove="Views\NewFolder\**" />
+	  <None Remove="Views\NewFolder1\**" />
+	  <None Remove="Views\NewFolder\**" />
+	</ItemGroup>
+
+	<ItemGroup>
 		<PackageReference Include="Microsoft.Maui.Controls" Version="$(MauiVersion)" />
 		<PackageReference Include="Microsoft.Maui.Controls.Compatibility" Version="$(MauiVersion)" />
 		<PackageReference Include="Microsoft.Extensions.Logging.Debug" Version="8.0.1" />
@@ -78,6 +93,9 @@
 	</ItemGroup>
 
 	<ItemGroup>
+	  <MauiXaml Update="Views\Cart\CartPage.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
 	  <MauiXaml Update="Views\GardenCare\FertilizersPage.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
@@ -85,6 +103,9 @@
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
 	  <MauiXaml Update="Views\GardenCare\SoilAndMulchPage.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
+	  <MauiXaml Update="Views\Login\LoginPage.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
 	  <MauiXaml Update="Views\Plants\SeasonalPlantsPage.xaml">

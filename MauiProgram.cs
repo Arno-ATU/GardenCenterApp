@@ -1,6 +1,7 @@
 using Microsoft.Extensions.Logging;
 using GardenApp.Views;
 using GardenApp.ViewModels;
+using GardenApp.Services;
 
 namespace GardenApp
 {
@@ -17,13 +18,19 @@ namespace GardenApp
                     fonts.AddFont("OpenSans-Semibold.ttf", "OpenSansSemibold");
                 });
 
+            // Register services
+            builder.Services.AddSingleton<AuthService>();
+            builder.Services.AddSingleton<UserService>();
+            builder.Services.AddTransient<AppShellViewModel>();
+
             // Register Views
+            builder.Services.AddTransient<LoginPage>();
             builder.Services.AddTransient<HomePage>();
             builder.Services.AddTransient<PlantsPage>();
             builder.Services.AddTransient<ToolsPage>();
             builder.Services.AddTransient<GardenCarePage>();
-            builder.Services.AddTransient<IndoorPlantsPage>();  
-            builder.Services.AddTransient<OutdoorPlantsPage>(); 
+            builder.Services.AddTransient<IndoorPlantsPage>();
+            builder.Services.AddTransient<OutdoorPlantsPage>();
             builder.Services.AddTransient<SeasonalPlantsPage>();
             builder.Services.AddTransient<HandToolsPage>();
             builder.Services.AddTransient<PowerToolsPage>();
@@ -31,14 +38,16 @@ namespace GardenApp
             builder.Services.AddTransient<FertilizersPage>();
             builder.Services.AddTransient<PestControlPage>();
             builder.Services.AddTransient<SoilAndMulchPage>();
+            builder.Services.AddTransient<CartPage>();
 
             // Register ViewModels
+            builder.Services.AddTransient<LoginViewModel>();
             builder.Services.AddTransient<HomeViewModel>();
             builder.Services.AddTransient<PlantsViewModel>();
             builder.Services.AddTransient<ToolsViewModel>();
             builder.Services.AddTransient<GardenCareViewModel>();
-            builder.Services.AddTransient<IndoorPlantsViewModel>();  
-            builder.Services.AddTransient<OutdoorPlantsViewModel>(); 
+            builder.Services.AddTransient<IndoorPlantsViewModel>();
+            builder.Services.AddTransient<OutdoorPlantsViewModel>();
             builder.Services.AddTransient<SeasonalPlantsViewModel>();
             builder.Services.AddTransient<HandToolsViewModel>();
             builder.Services.AddTransient<PowerToolsViewModel>();

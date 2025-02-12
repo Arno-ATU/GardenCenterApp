@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="GardenApp.Views.LoginPage"
+             Title="Login">
+    <VerticalStackLayout Spacing="25" Padding="30,0" 
+                         VerticalOptions="Center">
+        <Image
+            Source="app_icon.png"
+            HeightRequest="100"
+            HorizontalOptions="Center" />
+        <Entry 
+            x:Name="UsernameEntry"
+            Placeholder="Username"
+            Text="{Binding Username}"
+            />
+        <Entry 
+            x:Name="PhoneNumberEntry"
+            Placeholder="Phone Number"
+            Text="{Binding PhoneNumber}"
+            Keyboard="Telephone"
+            />
+        <HorizontalStackLayout>
+            <CheckBox IsChecked="{Binding IsCorporate}" />
+            <Label Text="Corporate Account" VerticalOptions="Center" />
+        </HorizontalStackLayout>
+        <Button 
+            Text="Login"
+            Command="{Binding LoginCommand}"
+            HorizontalOptions="Center" />
+        <Button 
+            Text="Create Account"
+            Command="{Binding CreateAccountCommand}"
+            HorizontalOptions="Center" />
+    </VerticalStackLayout>
+</ContentPage>

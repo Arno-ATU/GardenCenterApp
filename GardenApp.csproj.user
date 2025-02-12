@@ -6,6 +6,9 @@
     <ActiveDebugFramework>net8.0-windows10.0.19041.0</ActiveDebugFramework>
   </PropertyGroup>
   <ItemGroup>
+    <MauiXaml Update="Views\Cart\CartPage.xaml">
+      <SubType>Designer</SubType>
+    </MauiXaml>
     <MauiXaml Update="Views\GardenCare\FertilizersPage.xaml">
       <SubType>Designer</SubType>
     </MauiXaml>
@@ -13,6 +16,9 @@
       <SubType>Designer</SubType>
     </MauiXaml>
     <MauiXaml Update="Views\GardenCare\SoilAndMulchPage.xaml">
+      <SubType>Designer</SubType>
+    </MauiXaml>
+    <MauiXaml Update="Views\Login\LoginPage.xaml">
       <SubType>Designer</SubType>
     </MauiXaml>
     <MauiXaml Update="Views\Plants\SeasonalPlantsPage.xaml">

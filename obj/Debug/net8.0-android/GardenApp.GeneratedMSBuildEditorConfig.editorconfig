@@ -84,6 +84,18 @@ build_metadata.AdditionalFiles.ManifestResourceName = GardenApp.Views.Plants.Sea
 build_metadata.AdditionalFiles.TargetPath = Views\Plants\SeasonalPlantsPage.xaml
 build_metadata.AdditionalFiles.RelativePath = Views\Plants\SeasonalPlantsPage.xaml
 
+[C:/Users/aronm/Desktop/GardenApp/Views/Tools/HandToolsPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = GardenApp.Views.Tools.HandToolsPage.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\Tools\HandToolsPage.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\Tools\HandToolsPage.xaml
+
+[C:/Users/aronm/Desktop/GardenApp/Views/Tools/PowerToolsPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = GardenApp.Views.Tools.PowerToolsPage.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\Tools\PowerToolsPage.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\Tools\PowerToolsPage.xaml
+
 [C:/Users/aronm/Desktop/GardenApp/Views/Tools/ToolsPage.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = GardenApp.Views.Tools.ToolsPage.xaml

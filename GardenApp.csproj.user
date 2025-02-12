@@ -21,6 +21,12 @@
     <MauiXaml Update="Views\Plants\PlantsPage.xaml">
       <SubType>Designer</SubType>
     </MauiXaml>
+    <MauiXaml Update="Views\Tools\HandToolsPage.xaml">
+      <SubType>Designer</SubType>
+    </MauiXaml>
+    <MauiXaml Update="Views\Tools\PowerToolsPage.xaml">
+      <SubType>Designer</SubType>
+    </MauiXaml>
     <MauiXaml Update="Views\Tools\ToolsPage.xaml">
       <SubType>Designer</SubType>
     </MauiXaml>

@@ -26,7 +26,7 @@
                        Padding="15">
                     <Frame.GestureRecognizers>
                         <TapGestureRecognizer Command="{Binding NavigateCommand}"
-                                            CommandParameter="HandTools"/>
+                            CommandParameter="HandTools"/>
                     </Frame.GestureRecognizers>
                     <VerticalStackLayout>
                         <Label Text="Hand Tools"

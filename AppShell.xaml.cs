@@ -11,10 +11,10 @@ namespace GardenApp
             // Plants routes
             Routing.RegisterRoute("plants/indoor-plants", typeof(Views.IndoorPlantsPage));
             Routing.RegisterRoute("plants/outdoor-plants", typeof(Views.OutdoorPlantsPage));  
-            Routing.RegisterRoute("plants/seasonal-plants", typeof(Views.SeasonalPlantsPage)); 
+            Routing.RegisterRoute("plants/seasonal-plants", typeof(Views.SeasonalPlantsPage));
 
             // Tools routes
-            Routing.RegisterRoute("tools/hand-tools", typeof(Views.ToolsPage));
+            Routing.RegisterRoute("tools/hand-tools", typeof(Views.HandToolsPage));
             Routing.RegisterRoute("tools/power-tools", typeof(Views.ToolsPage));
             Routing.RegisterRoute("tools/watering-tools", typeof(Views.ToolsPage));
 

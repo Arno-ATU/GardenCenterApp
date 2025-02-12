@@ -6,24 +6,25 @@ namespace GardenApp.ViewModels
     public class PlantsViewModel
     {
         public ICommand NavigateCommand { get; }
-        public List<Plant> Plants { get; set; }
 
         public PlantsViewModel()
         {
-            Plants = new List<Plant>();
             NavigateCommand = new Command<string>(async (route) =>
             {
                 try
                 {
-                    Console.WriteLine($"Attempting navigation to: {route}");
+                    Console.WriteLine($"Debug: Navigation attempted for route: {route}");
+
                     string navigationRoute = route.ToLower() switch
                     {
-                        "indoorplants" => "//indoor-plants",
+                        "indoorplants" => "plants/indoor-plants",  // Remove the // at start
+                        "outdoorplants" => "plants/outdoor-plants",
+                        "seasonalplants" => "plants/seasonal-plants",
                         _ => throw new ArgumentException($"Unknown route: {route}")
                     };
 
+                    Console.WriteLine($"Debug: Converted to navigation route: {navigationRoute}");
                     await Shell.Current.GoToAsync(navigationRoute);
-                    Console.WriteLine($"Navigation completed to: {navigationRoute}");
                 }
                 catch (Exception ex)
                 {

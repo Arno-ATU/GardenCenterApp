@@ -154,6 +154,7 @@ C:\Users\aronm\Desktop\GardenApp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\
 C:\Users\aronm\Desktop\GardenApp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\GardenApp.AssemblyInfoInputs.cache
 C:\Users\aronm\Desktop\GardenApp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\GardenApp.AssemblyInfo.cs
 C:\Users\aronm\Desktop\GardenApp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\GardenApp.csproj.CoreCompileInputs.cache
+C:\Users\aronm\Desktop\GardenApp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\GardenApp.sourcelink.json
 C:\Users\aronm\Desktop\GardenApp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\XamlC.stamp
 C:\Users\aronm\Desktop\GardenApp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\GardenApp.csproj.Up2Date
 C:\Users\aronm\Desktop\GardenApp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\GardenApp.dll
@@ -177,4 +178,3 @@ C:\Users\aronm\Desktop\GardenApp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\
 C:\Users\aronm\Desktop\GardenApp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\qualifiers.txt.intermediate
 C:\Users\aronm\Desktop\GardenApp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\MultipleQualifiersPerDimensionFound.txt
 C:\Users\aronm\Desktop\GardenApp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\ProjectArchitectures.txt
-C:\Users\aronm\Desktop\GardenApp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\GardenApp.sourcelink.json

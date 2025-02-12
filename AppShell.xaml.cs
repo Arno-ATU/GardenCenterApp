@@ -5,14 +5,13 @@ namespace GardenApp
         public AppShell()
         {
             InitializeComponent();
-
             // Register routes for navigation
             //Routing.RegisterRoute("login", typeof(Views.LoginPage));
 
             // Plants routes
-            Routing.RegisterRoute("plants/indoor-plants", typeof(Views.PlantsPage));
-            Routing.RegisterRoute("plants/outdoor-plants", typeof(Views.PlantsPage));
-            Routing.RegisterRoute("plants/seasonal-plants", typeof(Views.PlantsPage));
+            Routing.RegisterRoute("plants/indoor-plants", typeof(Views.IndoorPlantsPage));
+            //Routing.RegisterRoute("plants/outdoor-plants", typeof(Views.OutdoorPlantsPage));  // You'll need to create this page
+            //Routing.RegisterRoute("plants/seasonal-plants", typeof(Views.SeasonalPlantsPage)); // You'll need to create this page
 
             // Tools routes
             Routing.RegisterRoute("tools/hand-tools", typeof(Views.ToolsPage));

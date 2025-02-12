@@ -3,11 +3,9 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="GardenApp.Views.PlantsPage"
              Title="Plants">
-
     <Grid RowDefinitions="Auto,*" 
           Padding="20"
           BackgroundColor="{AppThemeBinding Light={StaticResource White}, Dark={StaticResource Black}}">
-
         <!-- Header -->
         <VerticalStackLayout Grid.Row="0" 
                             Spacing="10" 
@@ -18,7 +16,6 @@
             <Label Text="Browse through our selection of plants"
                    FontSize="16"/>
         </VerticalStackLayout>
-
         <!-- Content -->
         <ScrollView Grid.Row="1">
             <VerticalStackLayout Spacing="15">
@@ -26,7 +23,7 @@
                        Padding="15">
                     <Frame.GestureRecognizers>
                         <TapGestureRecognizer Command="{Binding NavigateCommand}"
-                          CommandParameter="indoorplants"/>
+                                            CommandParameter="indoorplants"/>
                     </Frame.GestureRecognizers>
                     <VerticalStackLayout>
                         <Label Text="Indoor Plants"
@@ -42,7 +39,7 @@
                        Padding="15">
                     <Frame.GestureRecognizers>
                         <TapGestureRecognizer Command="{Binding NavigateCommand}"
-                                            CommandParameter="OutdoorPlants"/>
+                                            CommandParameter="outdoorplants"/>
                     </Frame.GestureRecognizers>
                     <VerticalStackLayout>
                         <Label Text="Outdoor Plants"
@@ -58,7 +55,7 @@
                        Padding="15">
                     <Frame.GestureRecognizers>
                         <TapGestureRecognizer Command="{Binding NavigateCommand}"
-                                            CommandParameter="SeasonalPlants"/>
+                                            CommandParameter="seasonalplants"/>
                     </Frame.GestureRecognizers>
                     <VerticalStackLayout>
                         <Label Text="Seasonal Plants"

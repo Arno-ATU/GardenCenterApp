@@ -22,12 +22,18 @@ namespace GardenApp
             builder.Services.AddTransient<PlantsPage>();
             builder.Services.AddTransient<ToolsPage>();
             builder.Services.AddTransient<GardenCarePage>();
+            builder.Services.AddTransient<IndoorPlantsPage>();  // Add this
+            //builder.Services.AddTransient<OutdoorPlantsPage>(); // Add this
+            //builder.Services.AddTransient<SeasonalPlantsPage>(); // Add this
 
             // Register ViewModels
             builder.Services.AddTransient<HomeViewModel>();
             builder.Services.AddTransient<PlantsViewModel>();
             builder.Services.AddTransient<ToolsViewModel>();
             builder.Services.AddTransient<GardenCareViewModel>();
+            builder.Services.AddTransient<IndoorPlantsViewModel>();  // Add this
+            //builder.Services.AddTransient<OutdoorPlantsViewModel>(); // Add this
+            //builder.Services.AddTransient<SeasonalPlantsViewModel>(); // Add this
 
 #if DEBUG
             builder.Logging.AddDebug();

@@ -1,0 +1,79 @@
+is_global = true
+build_property.EnableAotAnalyzer = 
+build_property.EnableSingleFileAnalyzer = 
+build_property.EnableTrimAnalyzer = false
+build_property.IncludeAllContentForSelfExtract = 
+build_property.TargetFramework = net8.0-ios
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = 
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = false
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = GardenApp
+build_property.ProjectDir = C:\Users\aronm\Desktop\GardenApp\
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 
+build_property.EffectiveAnalysisLevelStyle = 8.0
+build_property.EnableCodeStyleSeverity = 
+
+[C:/Users/aronm/Desktop/GardenApp/App.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = GardenApp.App.xaml
+build_metadata.AdditionalFiles.TargetPath = App.xaml
+build_metadata.AdditionalFiles.RelativePath = App.xaml
+
+[C:/Users/aronm/Desktop/GardenApp/AppShell.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = GardenApp.AppShell.xaml
+build_metadata.AdditionalFiles.TargetPath = AppShell.xaml
+build_metadata.AdditionalFiles.RelativePath = AppShell.xaml
+
+[C:/Users/aronm/Desktop/GardenApp/MainPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = GardenApp.MainPage.xaml
+build_metadata.AdditionalFiles.TargetPath = MainPage.xaml
+build_metadata.AdditionalFiles.RelativePath = MainPage.xaml
+
+[C:/Users/aronm/Desktop/GardenApp/Resources/Styles/Colors.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = GardenApp.Resources.Styles.Colors.xaml
+build_metadata.AdditionalFiles.TargetPath = Resources\Styles\Colors.xaml
+build_metadata.AdditionalFiles.RelativePath = Resources\Styles\Colors.xaml
+
+[C:/Users/aronm/Desktop/GardenApp/Resources/Styles/Styles.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = GardenApp.Resources.Styles.Styles.xaml
+build_metadata.AdditionalFiles.TargetPath = Resources\Styles\Styles.xaml
+build_metadata.AdditionalFiles.RelativePath = Resources\Styles\Styles.xaml
+
+[C:/Users/aronm/Desktop/GardenApp/Views/GardenCare/GardenCarePage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = GardenApp.Views.GardenCare.GardenCarePage.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\GardenCare\GardenCarePage.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\GardenCare\GardenCarePage.xaml
+
+[C:/Users/aronm/Desktop/GardenApp/Views/Home/HomePage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = GardenApp.Views.Home.HomePage.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\Home\HomePage.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\Home\HomePage.xaml
+
+[C:/Users/aronm/Desktop/GardenApp/Views/Plants/PlantsPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = GardenApp.Views.Plants.PlantsPage.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\Plants\PlantsPage.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\Plants\PlantsPage.xaml
+
+[C:/Users/aronm/Desktop/GardenApp/Views/Tools/ToolsPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = GardenApp.Views.Tools.ToolsPage.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\Tools\ToolsPage.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\Tools\ToolsPage.xaml
+
+[C:/Users/aronm/Desktop/GardenApp/Views/Users/UserListPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = GardenApp.Views.Users.UserListPage.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\Users\UserListPage.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\Users\UserListPage.xaml

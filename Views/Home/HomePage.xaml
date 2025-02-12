@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="GardenApp.Views.HomePage"
+             Title="Home">
+
+    <ScrollView>
+        <Grid RowDefinitions="Auto,*,Auto" 
+              Padding="20"
+              RowSpacing="20">
+
+            <!-- Header -->
+            <VerticalStackLayout Grid.Row="0" 
+                                Spacing="10">
+                <Label Text="Welcome to Arno's Garden Center"
+                       FontSize="32"
+                       FontAttributes="Bold"
+                       HorizontalOptions="Center"/>
+
+                <Label Text="Your one-stop shop for all gardening needs"
+                       FontSize="18"
+                       HorizontalOptions="Center"
+                       TextColor="{StaticResource Secondary}"/>
+            </VerticalStackLayout>
+
+            <!-- Main Content -->
+            <Grid Grid.Row="1" 
+                  RowDefinitions="*,*"
+                  ColumnDefinitions="*,*"
+                  Padding="10"
+                  RowSpacing="20"
+                  ColumnSpacing="20">
+
+                <!-- Plants Section -->
+                <Frame Grid.Row="0" Grid.Column="0"
+                       BackgroundColor="{StaticResource Primary}">
+                    <Frame.GestureRecognizers>
+                        <TapGestureRecognizer Command="{Binding NavigateCommand}"
+                                            CommandParameter="Plants"/>
+                    </Frame.GestureRecognizers>
+                    <VerticalStackLayout Spacing="5">
+                        <Label Text="Plants"
+                               TextColor="White"
+                               FontSize="20"
+                               FontAttributes="Bold"
+                               HorizontalOptions="Center"/>
+                        <Label Text="Browse our collection"
+                               TextColor="White"
+                               HorizontalOptions="Center"/>
+                    </VerticalStackLayout>
+                </Frame>
+
+                <!-- Tools Section -->
+                <Frame Grid.Row="0" Grid.Column="1"
+                       BackgroundColor="{StaticResource Primary}">
+                    <Frame.GestureRecognizers>
+                        <TapGestureRecognizer Command="{Binding NavigateCommand}"
+                                            CommandParameter="Tools"/>
+                    </Frame.GestureRecognizers>
+                    <VerticalStackLayout Spacing="5">
+                        <Label Text="Tools"
+                               TextColor="White"
+                               FontSize="20"
+                               FontAttributes="Bold"
+                               HorizontalOptions="Center"/>
+                        <Label Text="Find the right tools"
+                               TextColor="White"
+                               HorizontalOptions="Center"/>
+                    </VerticalStackLayout>
+                </Frame>
+
+                <!-- Garden Care Section -->
+                <Frame Grid.Row="1" Grid.Column="0"
+                       BackgroundColor="{StaticResource Primary}">
+                    <Frame.GestureRecognizers>
+                        <TapGestureRecognizer Command="{Binding NavigateCommand}"
+                                            CommandParameter="GardenCare"/>
+                    </Frame.GestureRecognizers>
+                    <VerticalStackLayout Spacing="5">
+                        <Label Text="Garden Care"
+                               TextColor="White"
+                               FontSize="20"
+                               FontAttributes="Bold"
+                               HorizontalOptions="Center"/>
+                        <Label Text="Maintenance essentials"
+                               TextColor="White"
+                               HorizontalOptions="Center"/>
+                    </VerticalStackLayout>
+                </Frame>
+
+                <!-- Shopping Cart -->
+                <Frame Grid.Row="1" Grid.Column="1"
+                       BackgroundColor="{StaticResource Tertiary}">
+                    <Frame.GestureRecognizers>
+                        <TapGestureRecognizer Command="{Binding NavigateCommand}"
+                                            CommandParameter="Cart"/>
+                    </Frame.GestureRecognizers>
+                    <VerticalStackLayout Spacing="5">
+                        <Label Text="Cart"
+                               TextColor="White"
+                               FontSize="20"
+                               FontAttributes="Bold"
+                               HorizontalOptions="Center"/>
+                        <Label Text="View your items"
+                               TextColor="White"
+                               HorizontalOptions="Center"/>
+                    </VerticalStackLayout>
+                </Frame>
+            </Grid>
+
+            <!-- Footer -->
+            <VerticalStackLayout Grid.Row="2"
+                                Spacing="10">
+                <Label Text="Special Offers!"
+                       FontSize="22"
+                       FontAttributes="Bold"
+                       HorizontalOptions="Center"/>
+                <Label Text="Check our daily deals and seasonal specials"
+                       FontSize="16"
+                       HorizontalOptions="Center"/>
+            </VerticalStackLayout>
+        </Grid>
+    </ScrollView>
+</ContentPage>

@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="GardenApp.Views.GardenCarePage"
+             Title="Garden Care">
+
+    <Grid RowDefinitions="Auto,*" 
+          Padding="20"
+          BackgroundColor="{AppThemeBinding Light={StaticResource White}, Dark={StaticResource Black}}">
+
+        <!-- Header -->
+        <VerticalStackLayout Grid.Row="0" 
+                            Spacing="10" 
+                            Margin="0,0,0,20">
+            <Label Text="Garden Care Products"
+                   FontSize="24"
+                   FontAttributes="Bold"/>
+            <Label Text="Everything you need for garden maintenance"
+                   FontSize="16"/>
+        </VerticalStackLayout>
+
+        <!-- Content -->
+        <ScrollView Grid.Row="1">
+            <VerticalStackLayout Spacing="15">
+                <Frame BackgroundColor="{StaticResource Primary}"
+                       Padding="15">
+                    <Frame.GestureRecognizers>
+                        <TapGestureRecognizer Command="{Binding NavigateCommand}"
+                                            CommandParameter="Fertilizers"/>
+                    </Frame.GestureRecognizers>
+                    <VerticalStackLayout>
+                        <Label Text="Fertilizers"
+                               TextColor="White"
+                               FontSize="20"
+                               FontAttributes="Bold"/>
+                        <Label Text="Nutrition for your plants"
+                               TextColor="White"/>
+                    </VerticalStackLayout>
+                </Frame>
+
+                <Frame BackgroundColor="{StaticResource Secondary}"
+                       Padding="15">
+                    <Frame.GestureRecognizers>
+                        <TapGestureRecognizer Command="{Binding NavigateCommand}"
+                                            CommandParameter="PestControl"/>
+                    </Frame.GestureRecognizers>
+                    <VerticalStackLayout>
+                        <Label Text="Pest Control"
+                               TextColor="White"
+                               FontSize="20"
+                               FontAttributes="Bold"/>
+                        <Label Text="Keep your garden pest-free"
+                               TextColor="White"/>
+                    </VerticalStackLayout>
+                </Frame>
+
+                <Frame BackgroundColor="{StaticResource Tertiary}"
+                       Padding="15">
+                    <Frame.GestureRecognizers>
+                        <TapGestureRecognizer Command="{Binding NavigateCommand}"
+                                            CommandParameter="SoilAndMulch"/>
+                    </Frame.GestureRecognizers>
+                    <VerticalStackLayout>
+                        <Label Text="Soil &amp; Mulch"
+                               TextColor="White"
+                               FontSize="20"
+                               FontAttributes="Bold"/>
+                        <Label Text="Quality growing medium"
+                               TextColor="White"/>
+                    </VerticalStackLayout>
+                </Frame>
+            </VerticalStackLayout>
+        </ScrollView>
+    </Grid>
+</ContentPage>

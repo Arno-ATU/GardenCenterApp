@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="GardenApp.Views.PlantsPage"
+             Title="Plants">
+
+    <Grid RowDefinitions="Auto,*" 
+          Padding="20"
+          BackgroundColor="{AppThemeBinding Light={StaticResource White}, Dark={StaticResource Black}}">
+
+        <!-- Header -->
+        <VerticalStackLayout Grid.Row="0" 
+                            Spacing="10" 
+                            Margin="0,0,0,20">
+            <Label Text="Our Plants Collection"
+                   FontSize="24"
+                   FontAttributes="Bold"/>
+            <Label Text="Browse through our selection of plants"
+                   FontSize="16"/>
+        </VerticalStackLayout>
+
+        <!-- Content -->
+        <ScrollView Grid.Row="1">
+            <VerticalStackLayout Spacing="15">
+                <Frame BackgroundColor="{StaticResource Primary}"
+                       Padding="15">
+                    <Frame.GestureRecognizers>
+                        <TapGestureRecognizer Command="{Binding NavigateCommand}"
+                          CommandParameter="indoorplants"/>
+                    </Frame.GestureRecognizers>
+                    <VerticalStackLayout>
+                        <Label Text="Indoor Plants"
+                               TextColor="White"
+                               FontSize="20"
+                               FontAttributes="Bold"/>
+                        <Label Text="Perfect for your home"
+                               TextColor="White"/>
+                    </VerticalStackLayout>
+                </Frame>
+
+                <Frame BackgroundColor="{StaticResource Secondary}"
+                       Padding="15">
+                    <Frame.GestureRecognizers>
+                        <TapGestureRecognizer Command="{Binding NavigateCommand}"
+                                            CommandParameter="OutdoorPlants"/>
+                    </Frame.GestureRecognizers>
+                    <VerticalStackLayout>
+                        <Label Text="Outdoor Plants"
+                               TextColor="White"
+                               FontSize="20"
+                               FontAttributes="Bold"/>
+                        <Label Text="Beautify your garden"
+                               TextColor="White"/>
+                    </VerticalStackLayout>
+                </Frame>
+
+                <Frame BackgroundColor="{StaticResource Tertiary}"
+                       Padding="15">
+                    <Frame.GestureRecognizers>
+                        <TapGestureRecognizer Command="{Binding NavigateCommand}"
+                                            CommandParameter="SeasonalPlants"/>
+                    </Frame.GestureRecognizers>
+                    <VerticalStackLayout>
+                        <Label Text="Seasonal Plants"
+                               TextColor="White"
+                               FontSize="20"
+                               FontAttributes="Bold"/>
+                        <Label Text="Currently in season"
+                               TextColor="White"/>
+                    </VerticalStackLayout>
+                </Frame>
+            </VerticalStackLayout>
+        </ScrollView>
+    </Grid>
+</ContentPage>

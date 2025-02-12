@@ -29,25 +29,25 @@
     <AppXManifest Include="C:\Users\aronm\Desktop\GardenApp\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2025-02-12T15:12:13.253</Modified>
+      <Modified>2025-02-12T16:11:05.212</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="C:\Users\aronm\Desktop\GardenApp\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2025-02-12T15:12:13.139</Modified>
+      <Modified>2025-02-12T16:05:36.900</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\aronm\Desktop\GardenApp\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\GardenApp.runtimeconfig.json">
       <PackagePath>GardenApp.runtimeconfig.json</PackagePath>
-      <Modified>2025-02-12T15:12:13.032</Modified>
+      <Modified>2025-02-12T16:05:36.851</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\aronm\Desktop\GardenApp\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\GardenApp.dll">
       <PackagePath>GardenApp.dll</PackagePath>
-      <Modified>2025-02-12T15:12:12.665</Modified>
+      <Modified>2025-02-12T16:11:04.832</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\aronm\Desktop\GardenApp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\apphost.exe">
       <PackagePath>GardenApp.exe</PackagePath>
-      <Modified>2025-02-12T15:12:12.669</Modified>
+      <Modified>2025-02-12T16:11:04.837</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\aronm\Desktop\GardenApp\Resources\Raw\AboutAssets.txt">
       <PackagePath>AboutAssets.txt</PackagePath>
@@ -55,23 +55,23 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\aronm\Desktop\GardenApp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splashSplashScreen.scale-100.png">
       <PackagePath>splashSplashScreen.scale-100.png</PackagePath>
-      <Modified>2025-02-12T15:12:11.437</Modified>
+      <Modified>2025-02-12T16:05:35.390</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\aronm\Desktop\GardenApp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splashSplashScreen.scale-125.png">
       <PackagePath>splashSplashScreen.scale-125.png</PackagePath>
-      <Modified>2025-02-12T15:12:11.450</Modified>
+      <Modified>2025-02-12T16:05:35.403</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\aronm\Desktop\GardenApp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splashSplashScreen.scale-150.png">
       <PackagePath>splashSplashScreen.scale-150.png</PackagePath>
-      <Modified>2025-02-12T15:12:11.467</Modified>
+      <Modified>2025-02-12T16:05:35.425</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\aronm\Desktop\GardenApp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splashSplashScreen.scale-200.png">
       <PackagePath>splashSplashScreen.scale-200.png</PackagePath>
-      <Modified>2025-02-12T15:12:11.494</Modified>
+      <Modified>2025-02-12T16:05:35.453</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\aronm\Desktop\GardenApp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splashSplashScreen.scale-400.png">
       <PackagePath>splashSplashScreen.scale-400.png</PackagePath>
-      <Modified>2025-02-12T15:12:11.595</Modified>
+      <Modified>2025-02-12T16:05:35.564</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\aronm\Desktop\GardenApp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\f\OpenSans-Regular.ttf">
       <PackagePath>OpenSans-Regular.ttf</PackagePath>
@@ -81,213 +81,217 @@
       <PackagePath>OpenSans-Semibold.ttf</PackagePath>
       <Modified>2025-02-12T13:16:26.248</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\aronm\Desktop\GardenApp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-400.png">
-      <PackagePath>appiconLargeTile.scale-400.png</PackagePath>
-      <Modified>2025-02-12T15:12:12.259</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\aronm\Desktop\GardenApp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-200.png">
-      <PackagePath>appiconLargeTile.scale-200.png</PackagePath>
-      <Modified>2025-02-12T15:12:12.259</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\aronm\Desktop\GardenApp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-150.png">
-      <PackagePath>appiconLargeTile.scale-150.png</PackagePath>
-      <Modified>2025-02-12T15:12:12.259</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\aronm\Desktop\GardenApp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-125.png">
-      <PackagePath>appiconLargeTile.scale-125.png</PackagePath>
-      <Modified>2025-02-12T15:12:12.259</Modified>
+    <AppxPackagedFile Include="C:\Users\aronm\Desktop\GardenApp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appicon.ico">
+      <PackagePath>appicon.ico</PackagePath>
+      <Modified>2025-02-12T16:05:36.125</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\aronm\Desktop\GardenApp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-100.png">
       <PackagePath>appiconLargeTile.scale-100.png</PackagePath>
-      <Modified>2025-02-12T15:12:12.260</Modified>
+      <Modified>2025-02-12T16:05:36.117</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\aronm\Desktop\GardenApp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-400.png">
-      <PackagePath>appiconWideTile.scale-400.png</PackagePath>
-      <Modified>2025-02-12T15:12:12.260</Modified>
+    <AppxPackagedFile Include="C:\Users\aronm\Desktop\GardenApp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-125.png">
+      <PackagePath>appiconLargeTile.scale-125.png</PackagePath>
+      <Modified>2025-02-12T16:05:36.117</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\aronm\Desktop\GardenApp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-200.png">
-      <PackagePath>appiconWideTile.scale-200.png</PackagePath>
-      <Modified>2025-02-12T15:12:12.260</Modified>
+    <AppxPackagedFile Include="C:\Users\aronm\Desktop\GardenApp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-150.png">
+      <PackagePath>appiconLargeTile.scale-150.png</PackagePath>
+      <Modified>2025-02-12T16:05:36.117</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\aronm\Desktop\GardenApp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-150.png">
-      <PackagePath>appiconWideTile.scale-150.png</PackagePath>
-      <Modified>2025-02-12T15:12:12.260</Modified>
+    <AppxPackagedFile Include="C:\Users\aronm\Desktop\GardenApp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-200.png">
+      <PackagePath>appiconLargeTile.scale-200.png</PackagePath>
+      <Modified>2025-02-12T16:05:36.117</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\aronm\Desktop\GardenApp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-125.png">
-      <PackagePath>appiconWideTile.scale-125.png</PackagePath>
-      <Modified>2025-02-12T15:12:12.260</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\aronm\Desktop\GardenApp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-100.png">
-      <PackagePath>appiconWideTile.scale-100.png</PackagePath>
-      <Modified>2025-02-12T15:12:12.261</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\aronm\Desktop\GardenApp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-400.png">
-      <PackagePath>appiconMediumTile.scale-400.png</PackagePath>
-      <Modified>2025-02-12T15:12:12.261</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\aronm\Desktop\GardenApp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-200.png">
-      <PackagePath>appiconMediumTile.scale-200.png</PackagePath>
-      <Modified>2025-02-12T15:12:12.261</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\aronm\Desktop\GardenApp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-150.png">
-      <PackagePath>appiconMediumTile.scale-150.png</PackagePath>
-      <Modified>2025-02-12T15:12:12.261</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\aronm\Desktop\GardenApp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-125.png">
-      <PackagePath>appiconMediumTile.scale-125.png</PackagePath>
-      <Modified>2025-02-12T15:12:12.261</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\aronm\Desktop\GardenApp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-100.png">
-      <PackagePath>appiconMediumTile.scale-100.png</PackagePath>
-      <Modified>2025-02-12T15:12:12.261</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\aronm\Desktop\GardenApp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-400.png">
-      <PackagePath>appiconSmallTile.scale-400.png</PackagePath>
-      <Modified>2025-02-12T15:12:12.262</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\aronm\Desktop\GardenApp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-200.png">
-      <PackagePath>appiconSmallTile.scale-200.png</PackagePath>
-      <Modified>2025-02-12T15:12:12.262</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\aronm\Desktop\GardenApp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-150.png">
-      <PackagePath>appiconSmallTile.scale-150.png</PackagePath>
-      <Modified>2025-02-12T15:12:12.262</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\aronm\Desktop\GardenApp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-125.png">
-      <PackagePath>appiconSmallTile.scale-125.png</PackagePath>
-      <Modified>2025-02-12T15:12:12.262</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\aronm\Desktop\GardenApp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-100.png">
-      <PackagePath>appiconSmallTile.scale-100.png</PackagePath>
-      <Modified>2025-02-12T15:12:12.262</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\aronm\Desktop\GardenApp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-400.png">
-      <PackagePath>appiconStoreLogo.scale-400.png</PackagePath>
-      <Modified>2025-02-12T15:12:12.263</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\aronm\Desktop\GardenApp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-200.png">
-      <PackagePath>appiconStoreLogo.scale-200.png</PackagePath>
-      <Modified>2025-02-12T15:12:12.263</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\aronm\Desktop\GardenApp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-150.png">
-      <PackagePath>appiconStoreLogo.scale-150.png</PackagePath>
-      <Modified>2025-02-12T15:12:12.263</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\aronm\Desktop\GardenApp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-125.png">
-      <PackagePath>appiconStoreLogo.scale-125.png</PackagePath>
-      <Modified>2025-02-12T15:12:12.263</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\aronm\Desktop\GardenApp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-100.png">
-      <PackagePath>appiconStoreLogo.scale-100.png</PackagePath>
-      <Modified>2025-02-12T15:12:12.263</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\aronm\Desktop\GardenApp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-256.png">
-      <PackagePath>appiconLogo.altform-lightunplated_targetsize-256.png</PackagePath>
-      <Modified>2025-02-12T15:12:12.263</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\aronm\Desktop\GardenApp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-48.png">
-      <PackagePath>appiconLogo.altform-lightunplated_targetsize-48.png</PackagePath>
-      <Modified>2025-02-12T15:12:12.263</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\aronm\Desktop\GardenApp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-32.png">
-      <PackagePath>appiconLogo.altform-lightunplated_targetsize-32.png</PackagePath>
-      <Modified>2025-02-12T15:12:12.264</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\aronm\Desktop\GardenApp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-24.png">
-      <PackagePath>appiconLogo.altform-lightunplated_targetsize-24.png</PackagePath>
-      <Modified>2025-02-12T15:12:12.264</Modified>
+    <AppxPackagedFile Include="C:\Users\aronm\Desktop\GardenApp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-400.png">
+      <PackagePath>appiconLargeTile.scale-400.png</PackagePath>
+      <Modified>2025-02-12T16:05:36.116</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\aronm\Desktop\GardenApp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-16.png">
       <PackagePath>appiconLogo.altform-lightunplated_targetsize-16.png</PackagePath>
-      <Modified>2025-02-12T15:12:12.264</Modified>
+      <Modified>2025-02-12T16:05:36.122</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\aronm\Desktop\GardenApp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-256.png">
-      <PackagePath>appiconLogo.altform-unplated_targetsize-256.png</PackagePath>
-      <Modified>2025-02-12T15:12:12.264</Modified>
+    <AppxPackagedFile Include="C:\Users\aronm\Desktop\GardenApp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-24.png">
+      <PackagePath>appiconLogo.altform-lightunplated_targetsize-24.png</PackagePath>
+      <Modified>2025-02-12T16:05:36.122</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\aronm\Desktop\GardenApp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-48.png">
-      <PackagePath>appiconLogo.altform-unplated_targetsize-48.png</PackagePath>
-      <Modified>2025-02-12T15:12:12.264</Modified>
+    <AppxPackagedFile Include="C:\Users\aronm\Desktop\GardenApp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-256.png">
+      <PackagePath>appiconLogo.altform-lightunplated_targetsize-256.png</PackagePath>
+      <Modified>2025-02-12T16:05:36.121</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\aronm\Desktop\GardenApp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-32.png">
-      <PackagePath>appiconLogo.altform-unplated_targetsize-32.png</PackagePath>
-      <Modified>2025-02-12T15:12:12.265</Modified>
+    <AppxPackagedFile Include="C:\Users\aronm\Desktop\GardenApp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-32.png">
+      <PackagePath>appiconLogo.altform-lightunplated_targetsize-32.png</PackagePath>
+      <Modified>2025-02-12T16:05:36.122</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\aronm\Desktop\GardenApp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-24.png">
-      <PackagePath>appiconLogo.altform-unplated_targetsize-24.png</PackagePath>
-      <Modified>2025-02-12T15:12:12.265</Modified>
+    <AppxPackagedFile Include="C:\Users\aronm\Desktop\GardenApp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-48.png">
+      <PackagePath>appiconLogo.altform-lightunplated_targetsize-48.png</PackagePath>
+      <Modified>2025-02-12T16:05:36.122</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\aronm\Desktop\GardenApp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-16.png">
       <PackagePath>appiconLogo.altform-unplated_targetsize-16.png</PackagePath>
-      <Modified>2025-02-12T15:12:12.265</Modified>
+      <Modified>2025-02-12T16:05:36.123</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\aronm\Desktop\GardenApp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-256.png">
-      <PackagePath>appiconLogo.targetsize-256.png</PackagePath>
-      <Modified>2025-02-12T15:12:12.265</Modified>
+    <AppxPackagedFile Include="C:\Users\aronm\Desktop\GardenApp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-24.png">
+      <PackagePath>appiconLogo.altform-unplated_targetsize-24.png</PackagePath>
+      <Modified>2025-02-12T16:05:36.123</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\aronm\Desktop\GardenApp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-48.png">
-      <PackagePath>appiconLogo.targetsize-48.png</PackagePath>
-      <Modified>2025-02-12T15:12:12.265</Modified>
+    <AppxPackagedFile Include="C:\Users\aronm\Desktop\GardenApp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-256.png">
+      <PackagePath>appiconLogo.altform-unplated_targetsize-256.png</PackagePath>
+      <Modified>2025-02-12T16:05:36.122</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\aronm\Desktop\GardenApp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-32.png">
-      <PackagePath>appiconLogo.targetsize-32.png</PackagePath>
-      <Modified>2025-02-12T15:12:12.265</Modified>
+    <AppxPackagedFile Include="C:\Users\aronm\Desktop\GardenApp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-32.png">
+      <PackagePath>appiconLogo.altform-unplated_targetsize-32.png</PackagePath>
+      <Modified>2025-02-12T16:05:36.123</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\aronm\Desktop\GardenApp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-24.png">
-      <PackagePath>appiconLogo.targetsize-24.png</PackagePath>
-      <Modified>2025-02-12T15:12:12.266</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\aronm\Desktop\GardenApp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-16.png">
-      <PackagePath>appiconLogo.targetsize-16.png</PackagePath>
-      <Modified>2025-02-12T15:12:12.266</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\aronm\Desktop\GardenApp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-400.png">
-      <PackagePath>appiconLogo.scale-400.png</PackagePath>
-      <Modified>2025-02-12T15:12:12.266</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\aronm\Desktop\GardenApp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-200.png">
-      <PackagePath>appiconLogo.scale-200.png</PackagePath>
-      <Modified>2025-02-12T15:12:12.266</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\aronm\Desktop\GardenApp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-150.png">
-      <PackagePath>appiconLogo.scale-150.png</PackagePath>
-      <Modified>2025-02-12T15:12:12.266</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\aronm\Desktop\GardenApp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-125.png">
-      <PackagePath>appiconLogo.scale-125.png</PackagePath>
-      <Modified>2025-02-12T15:12:12.266</Modified>
+    <AppxPackagedFile Include="C:\Users\aronm\Desktop\GardenApp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-48.png">
+      <PackagePath>appiconLogo.altform-unplated_targetsize-48.png</PackagePath>
+      <Modified>2025-02-12T16:05:36.122</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\aronm\Desktop\GardenApp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-100.png">
       <PackagePath>appiconLogo.scale-100.png</PackagePath>
-      <Modified>2025-02-12T15:12:12.267</Modified>
+      <Modified>2025-02-12T16:05:36.125</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\aronm\Desktop\GardenApp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appicon.ico">
-      <PackagePath>appicon.ico</PackagePath>
-      <Modified>2025-02-12T15:12:12.267</Modified>
+    <AppxPackagedFile Include="C:\Users\aronm\Desktop\GardenApp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-125.png">
+      <PackagePath>appiconLogo.scale-125.png</PackagePath>
+      <Modified>2025-02-12T16:05:36.125</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\aronm\Desktop\GardenApp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-400.png">
-      <PackagePath>dotnet_bot.scale-400.png</PackagePath>
-      <Modified>2025-02-12T15:12:12.267</Modified>
+    <AppxPackagedFile Include="C:\Users\aronm\Desktop\GardenApp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-150.png">
+      <PackagePath>appiconLogo.scale-150.png</PackagePath>
+      <Modified>2025-02-12T16:05:36.124</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\aronm\Desktop\GardenApp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-200.png">
-      <PackagePath>dotnet_bot.scale-200.png</PackagePath>
-      <Modified>2025-02-12T15:12:12.267</Modified>
+    <AppxPackagedFile Include="C:\Users\aronm\Desktop\GardenApp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-200.png">
+      <PackagePath>appiconLogo.scale-200.png</PackagePath>
+      <Modified>2025-02-12T16:05:36.124</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\aronm\Desktop\GardenApp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-150.png">
-      <PackagePath>dotnet_bot.scale-150.png</PackagePath>
-      <Modified>2025-02-12T15:12:12.267</Modified>
+    <AppxPackagedFile Include="C:\Users\aronm\Desktop\GardenApp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-400.png">
+      <PackagePath>appiconLogo.scale-400.png</PackagePath>
+      <Modified>2025-02-12T16:05:36.124</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\aronm\Desktop\GardenApp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-125.png">
-      <PackagePath>dotnet_bot.scale-125.png</PackagePath>
-      <Modified>2025-02-12T15:12:12.267</Modified>
+    <AppxPackagedFile Include="C:\Users\aronm\Desktop\GardenApp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-16.png">
+      <PackagePath>appiconLogo.targetsize-16.png</PackagePath>
+      <Modified>2025-02-12T16:05:36.124</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\aronm\Desktop\GardenApp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-24.png">
+      <PackagePath>appiconLogo.targetsize-24.png</PackagePath>
+      <Modified>2025-02-12T16:05:36.124</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\aronm\Desktop\GardenApp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-256.png">
+      <PackagePath>appiconLogo.targetsize-256.png</PackagePath>
+      <Modified>2025-02-12T16:05:36.123</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\aronm\Desktop\GardenApp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-32.png">
+      <PackagePath>appiconLogo.targetsize-32.png</PackagePath>
+      <Modified>2025-02-12T16:05:36.123</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\aronm\Desktop\GardenApp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-48.png">
+      <PackagePath>appiconLogo.targetsize-48.png</PackagePath>
+      <Modified>2025-02-12T16:05:36.123</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\aronm\Desktop\GardenApp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-100.png">
+      <PackagePath>appiconMediumTile.scale-100.png</PackagePath>
+      <Modified>2025-02-12T16:05:36.119</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\aronm\Desktop\GardenApp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-125.png">
+      <PackagePath>appiconMediumTile.scale-125.png</PackagePath>
+      <Modified>2025-02-12T16:05:36.119</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\aronm\Desktop\GardenApp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-150.png">
+      <PackagePath>appiconMediumTile.scale-150.png</PackagePath>
+      <Modified>2025-02-12T16:05:36.119</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\aronm\Desktop\GardenApp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-200.png">
+      <PackagePath>appiconMediumTile.scale-200.png</PackagePath>
+      <Modified>2025-02-12T16:05:36.119</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\aronm\Desktop\GardenApp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-400.png">
+      <PackagePath>appiconMediumTile.scale-400.png</PackagePath>
+      <Modified>2025-02-12T16:05:36.119</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\aronm\Desktop\GardenApp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-100.png">
+      <PackagePath>appiconSmallTile.scale-100.png</PackagePath>
+      <Modified>2025-02-12T16:05:36.120</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\aronm\Desktop\GardenApp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-125.png">
+      <PackagePath>appiconSmallTile.scale-125.png</PackagePath>
+      <Modified>2025-02-12T16:05:36.120</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\aronm\Desktop\GardenApp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-150.png">
+      <PackagePath>appiconSmallTile.scale-150.png</PackagePath>
+      <Modified>2025-02-12T16:05:36.120</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\aronm\Desktop\GardenApp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-200.png">
+      <PackagePath>appiconSmallTile.scale-200.png</PackagePath>
+      <Modified>2025-02-12T16:05:36.120</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\aronm\Desktop\GardenApp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-400.png">
+      <PackagePath>appiconSmallTile.scale-400.png</PackagePath>
+      <Modified>2025-02-12T16:05:36.119</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\aronm\Desktop\GardenApp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-100.png">
+      <PackagePath>appiconStoreLogo.scale-100.png</PackagePath>
+      <Modified>2025-02-12T16:05:36.121</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\aronm\Desktop\GardenApp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-125.png">
+      <PackagePath>appiconStoreLogo.scale-125.png</PackagePath>
+      <Modified>2025-02-12T16:05:36.121</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\aronm\Desktop\GardenApp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-150.png">
+      <PackagePath>appiconStoreLogo.scale-150.png</PackagePath>
+      <Modified>2025-02-12T16:05:36.121</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\aronm\Desktop\GardenApp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-200.png">
+      <PackagePath>appiconStoreLogo.scale-200.png</PackagePath>
+      <Modified>2025-02-12T16:05:36.121</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\aronm\Desktop\GardenApp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-400.png">
+      <PackagePath>appiconStoreLogo.scale-400.png</PackagePath>
+      <Modified>2025-02-12T16:05:36.120</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\aronm\Desktop\GardenApp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-100.png">
+      <PackagePath>appiconWideTile.scale-100.png</PackagePath>
+      <Modified>2025-02-12T16:05:36.118</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\aronm\Desktop\GardenApp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-125.png">
+      <PackagePath>appiconWideTile.scale-125.png</PackagePath>
+      <Modified>2025-02-12T16:05:36.118</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\aronm\Desktop\GardenApp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-150.png">
+      <PackagePath>appiconWideTile.scale-150.png</PackagePath>
+      <Modified>2025-02-12T16:05:36.118</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\aronm\Desktop\GardenApp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-200.png">
+      <PackagePath>appiconWideTile.scale-200.png</PackagePath>
+      <Modified>2025-02-12T16:05:36.118</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\aronm\Desktop\GardenApp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-400.png">
+      <PackagePath>appiconWideTile.scale-400.png</PackagePath>
+      <Modified>2025-02-12T16:05:36.118</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\aronm\Desktop\GardenApp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-100.png">
       <PackagePath>dotnet_bot.scale-100.png</PackagePath>
-      <Modified>2025-02-12T15:12:12.268</Modified>
+      <Modified>2025-02-12T16:05:36.126</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\aronm\Desktop\GardenApp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-125.png">
+      <PackagePath>dotnet_bot.scale-125.png</PackagePath>
+      <Modified>2025-02-12T16:05:36.126</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\aronm\Desktop\GardenApp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-150.png">
+      <PackagePath>dotnet_bot.scale-150.png</PackagePath>
+      <Modified>2025-02-12T16:05:36.125</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\aronm\Desktop\GardenApp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-200.png">
+      <PackagePath>dotnet_bot.scale-200.png</PackagePath>
+      <Modified>2025-02-12T16:05:36.125</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\aronm\Desktop\GardenApp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-400.png">
+      <PackagePath>dotnet_bot.scale-400.png</PackagePath>
+      <Modified>2025-02-12T16:05:36.125</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\aronm\Desktop\GardenApp\Data\Products.json">
+      <PackagePath>Data\Products.json</PackagePath>
+      <Modified>2025-02-12T14:30:08.735</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\aronm\Desktop\GardenApp\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\GardenApp.deps.json">
       <PackagePath>GardenApp.deps.json</PackagePath>
-      <Modified>2025-02-12T15:12:13.029</Modified>
+      <Modified>2025-02-12T16:05:36.848</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\aronm\.nuget\packages\microsoft.windows.sdk.net.ref\10.0.19041.54\lib\net8.0\Microsoft.Windows.SDK.NET.dll">
       <PackagePath>Microsoft.Windows.SDK.NET.dll</PackagePath>

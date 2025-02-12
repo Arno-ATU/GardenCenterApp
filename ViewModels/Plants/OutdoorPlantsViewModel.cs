@@ -5,7 +5,7 @@ using GardenApp.Models;
 
 namespace GardenApp.ViewModels
 {
-    public class IndoorPlantsViewModel:BaseViewModel
+    public class OutdoorPlantsViewModel:BaseViewModel
     {
         private ObservableCollection<Product> _products;
         public ObservableCollection<Product> Products
@@ -17,7 +17,7 @@ namespace GardenApp.ViewModels
         public ICommand GoBackCommand { get; }
         public ICommand AddToCartCommand { get; }
 
-        public IndoorPlantsViewModel()
+        public OutdoorPlantsViewModel()
         {
             LoadProducts();
             GoBackCommand = new Command(async () => await Shell.Current.GoToAsync(".."));
@@ -75,19 +75,19 @@ namespace GardenApp.ViewModels
                 // Log subcategories
                 System.Diagnostics.Debug.WriteLine($"Total Subcategories: {plantsCategory.Subcategories?.Count ?? 0}");
 
-                // Find Indoor Plants subcategory
-                var indoorPlantsSubcategory = plantsCategory.Subcategories?
-                    .FirstOrDefault(sc => sc.Name == "Indoor Plants");
+                // Find Outdoor Plants subcategory
+                var outdoorPlantsSubcategory = plantsCategory.Subcategories?
+                    .FirstOrDefault(sc => sc.Name == "Outdoor Plants");
 
-                if (indoorPlantsSubcategory == null)
+                if (outdoorPlantsSubcategory == null)
                 {
-                    System.Diagnostics.Debug.WriteLine("No 'Indoor Plants' subcategory found");
+                    System.Diagnostics.Debug.WriteLine("No 'Outdoor Plants' subcategory found");
                     Products = new ObservableCollection<Product>();
                     return;
                 }
 
                 // Map JSON products to Product instances
-                var indoorPlants = indoorPlantsSubcategory.Products?
+                var outdoorPlants = outdoorPlantsSubcategory.Products?
                     .Select(p => new Product
                     {
                         Id = p.Id,
@@ -95,19 +95,19 @@ namespace GardenApp.ViewModels
                         Description = p.Description,
                         Price = p.Price,
                         Category = "Plants",
-                        Subcategory = "Indoor Plants"
+                        Subcategory = "Outdoor Plants"
                     })
                     .ToList() ?? new List<Product>();
 
-                // Log indoor plants details
-                System.Diagnostics.Debug.WriteLine($"Total Indoor Plants: {indoorPlants.Count}");
-                foreach (var plant in indoorPlants)
+                // Log outdoor plants details
+                System.Diagnostics.Debug.WriteLine($"Total Outdoor Plants: {outdoorPlants.Count}");
+                foreach (var plant in outdoorPlants)
                 {
                     System.Diagnostics.Debug.WriteLine($"Plant: {plant.Name}, Price: {plant.Price}");
                 }
 
                 // Convert to ObservableCollection
-                Products = new ObservableCollection<Product>(indoorPlants);
+                Products = new ObservableCollection<Product>(outdoorPlants);
             }
             catch (Exception ex)
             {
@@ -127,31 +127,5 @@ namespace GardenApp.ViewModels
                     $"{product.Name} added to your cart", "OK");
             }
         }
-    }
-
-    // Temporary classes for JSON deserialization
-    public class ProductCatalog
-    {
-        public List<Category> Categories { get; set; }
-    }
-
-    public class Category
-    {
-        public string Name { get; set; }
-        public List<Subcategory> Subcategories { get; set; }
-    }
-
-    public class Subcategory
-    {
-        public string Name { get; set; }
-        public List<ProductDto> Products { get; set; }
-    }
-
-    public class ProductDto
-    {
-        public string Id { get; set; }
-        public string Name { get; set; }
-        public string Description { get; set; }
-        public decimal Price { get; set; }
     }
 }

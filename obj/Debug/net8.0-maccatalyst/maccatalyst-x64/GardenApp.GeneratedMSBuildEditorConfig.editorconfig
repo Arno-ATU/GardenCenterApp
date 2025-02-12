@@ -66,6 +66,12 @@ build_metadata.AdditionalFiles.ManifestResourceName = GardenApp.Views.Plants.Ind
 build_metadata.AdditionalFiles.TargetPath = Views\Plants\IndoorPlantsPage.xaml
 build_metadata.AdditionalFiles.RelativePath = Views\Plants\IndoorPlantsPage.xaml
 
+[C:/Users/aronm/Desktop/GardenApp/Views/Plants/OutdoorPlantsPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = GardenApp.Views.Plants.OutdoorPlantsPage.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\Plants\OutdoorPlantsPage.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\Plants\OutdoorPlantsPage.xaml
+
 [C:/Users/aronm/Desktop/GardenApp/Views/Plants/PlantsPage.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = GardenApp.Views.Plants.PlantsPage.xaml

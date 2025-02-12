@@ -9,10 +9,18 @@ namespace GardenApp
             InitializeComponent();
             MainPage = new AppShell(appShellViewModel);
 
-            // Navigate to the login page when the app starts
             MainThread.InvokeOnMainThreadAsync(async () =>
             {
-                await Shell.Current.GoToAsync("//login");
+                try
+                {
+                    Console.WriteLine("Attempting to navigate to login page...");
+                    await Shell.Current.GoToAsync("//login");
+                    Console.WriteLine("Navigation to login page completed.");
+                }
+                catch (Exception ex)
+                {
+                    Console.WriteLine($"Error navigating to login page: {ex.Message}");
+                }
             });
         }
     }

@@ -11,6 +11,7 @@ namespace GardenApp
 
             // Register routes for navigation
             Routing.RegisterRoute("login", typeof(LoginPage));
+            Routing.RegisterRoute("main", typeof(AppShell));
 
             // Plants routes
             Routing.RegisterRoute("plants/indoor-plants", typeof(IndoorPlantsPage));

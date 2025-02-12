@@ -53,7 +53,7 @@ namespace GardenApp.ViewModels
             {
                 var user = _userService.GetUser(Username);
                 _authService.Login(user);
-                await Shell.Current.GoToAsync("//main");
+                await Shell.Current.GoToAsync("///main");
             }
             else
             {

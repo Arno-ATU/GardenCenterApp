@@ -5,10 +5,14 @@
     xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
     xmlns:local="clr-namespace:GardenApp"
     xmlns:views="clr-namespace:GardenApp.Views"
-    Shell.FlyoutBehavior="Disabled"
-    Title="GardenApp">
+    Shell.FlyoutBehavior="Disabled">
 
-    <TabBar>
+    <ShellContent
+        Route="login"
+        ContentTemplate="{DataTemplate views:LoginPage}"
+        />
+
+    <TabBar Route="main">
         <Tab Title="Home">
             <ShellContent 
                 Title="Home"
@@ -38,10 +42,10 @@
         </Tab>
 
         <ShellContent
-    Title="{Binding UserCartTitle}"
-    ContentTemplate="{DataTemplate views:CartPage}"
-    Route="cart"
-    IsVisible="{Binding IsUserLoggedIn}">
+            Title="{Binding UserCartTitle}"
+            ContentTemplate="{DataTemplate views:CartPage}"
+            Route="cart"
+            IsVisible="{Binding IsUserLoggedIn}">
             <ShellContent.Icon>
                 <FontImageSource Glyph="&#xf07a;"
                          FontFamily="FontAwesomeSolid"

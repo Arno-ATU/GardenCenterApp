@@ -19,7 +19,7 @@ namespace GardenApp
             Routing.RegisterRoute("tools/watering-tools", typeof(Views.WateringToolsPage));
 
             // Garden Care routes
-            Routing.RegisterRoute("gardencare/fertilizers", typeof(Views.GardenCarePage));
+            Routing.RegisterRoute("gardencare/fertilizers", typeof(Views.FertilizersPage));
             Routing.RegisterRoute("gardencare/pest-control", typeof(Views.GardenCarePage));
             Routing.RegisterRoute("gardencare/soil-and-mulch", typeof(Views.GardenCarePage));
         }

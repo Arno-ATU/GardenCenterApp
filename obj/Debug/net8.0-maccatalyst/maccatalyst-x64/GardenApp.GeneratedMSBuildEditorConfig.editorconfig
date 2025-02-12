@@ -48,6 +48,12 @@ build_metadata.AdditionalFiles.ManifestResourceName = GardenApp.Resources.Styles
 build_metadata.AdditionalFiles.TargetPath = Resources\Styles\Styles.xaml
 build_metadata.AdditionalFiles.RelativePath = Resources\Styles\Styles.xaml
 
+[C:/Users/aronm/Desktop/GardenApp/Views/GardenCare/FertilizersPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = GardenApp.Views.GardenCare.FertilizersPage.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\GardenCare\FertilizersPage.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\GardenCare\FertilizersPage.xaml
+
 [C:/Users/aronm/Desktop/GardenApp/Views/GardenCare/GardenCarePage.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = GardenApp.Views.GardenCare.GardenCarePage.xaml

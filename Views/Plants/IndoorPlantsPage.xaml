@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="GardenApp.Views.IndoorPlantsPage"
+             Title="Indoor Plants">
+
+    <Grid RowDefinitions="Auto,*" 
+          Padding="20"
+          BackgroundColor="{AppThemeBinding Light={StaticResource White}, Dark={StaticResource Black}}">
+
+        <!-- Header with Back Button -->
+        <Grid Grid.Row="0" ColumnDefinitions="Auto,*" Margin="0,0,0,20">
+            <Button Grid.Column="0" 
+                    Text="Back"
+                    Command="{Binding GoBackCommand}"
+                    Style="{StaticResource SecondaryButton}"/>
+            <Label Grid.Column="1" 
+                   Text="Indoor Plants"
+                   FontSize="24"
+                   FontAttributes="Bold"
+                   HorizontalOptions="Center"/>
+        </Grid>
+
+        <!-- Products List -->
+        <ScrollView Grid.Row="1">
+            <VerticalStackLayout Spacing="20">
+                <!-- Product Template (repeated for each product) -->
+                <Frame BorderColor="{StaticResource Primary}" 
+                       Padding="15" 
+                       Margin="0,5">
+                    <Grid RowDefinitions="Auto,Auto,Auto,Auto" 
+                          RowSpacing="10">
+                        <Label Grid.Row="0" 
+                               Text="Peace Lily"
+                               FontSize="20"
+                               FontAttributes="Bold"/>
+                        <Label Grid.Row="1" 
+                               Text="Beautiful flowering indoor plant, perfect for low-light areas"
+                               FontSize="16"/>
+                        <Label Grid.Row="2" 
+                               Text="$24.99"
+                               FontSize="18"
+                               TextColor="{StaticResource Primary}"/>
+                        <Button Grid.Row="3" 
+                                Text="Add to Cart"
+                                Command="{Binding AddToCartCommand}"
+                                CommandParameter="IP001"
+                                Style="{StaticResource PrimaryButton}"/>
+                    </Grid>
+                </Frame>
+
+                <!-- Repeat similar Frame for other products -->
+            </VerticalStackLayout>
+        </ScrollView>
+    </Grid>
+</ContentPage>

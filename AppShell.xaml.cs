@@ -10,8 +10,8 @@ namespace GardenApp
 
             // Plants routes
             Routing.RegisterRoute("plants/indoor-plants", typeof(Views.IndoorPlantsPage));
-            Routing.RegisterRoute("plants/outdoor-plants", typeof(Views.OutdoorPlantsPage));  // You'll need to create this page
-            //Routing.RegisterRoute("plants/seasonal-plants", typeof(Views.SeasonalPlantsPage)); // You'll need to create this page
+            Routing.RegisterRoute("plants/outdoor-plants", typeof(Views.OutdoorPlantsPage));  
+            Routing.RegisterRoute("plants/seasonal-plants", typeof(Views.SeasonalPlantsPage)); 
 
             // Tools routes
             Routing.RegisterRoute("tools/hand-tools", typeof(Views.ToolsPage));

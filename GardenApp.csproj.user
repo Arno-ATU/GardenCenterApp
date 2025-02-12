@@ -6,6 +6,9 @@
     <ActiveDebugFramework>net8.0-windows10.0.19041.0</ActiveDebugFramework>
   </PropertyGroup>
   <ItemGroup>
+    <MauiXaml Update="Views\Plants\SeasonalPlantsPage.xaml">
+      <SubType>Designer</SubType>
+    </MauiXaml>
     <MauiXaml Update="Views\Plants\OutdoorPlantsPage.xaml">
       <SubType>Designer</SubType>
     </MauiXaml>

@@ -20,8 +20,8 @@ namespace GardenApp
 
             // Garden Care routes
             Routing.RegisterRoute("gardencare/fertilizers", typeof(Views.FertilizersPage));
-            Routing.RegisterRoute("gardencare/pest-control", typeof(Views.GardenCarePage));
-            Routing.RegisterRoute("gardencare/soil-and-mulch", typeof(Views.GardenCarePage));
+            Routing.RegisterRoute("gardencare/pest-control", typeof(Views.PestControlPage));
+            Routing.RegisterRoute("gardencare/soil-and-mulch", typeof(Views.SoilAndMulchPage));
         }
     }
 }

@@ -9,6 +9,12 @@
     <MauiXaml Update="Views\GardenCare\FertilizersPage.xaml">
       <SubType>Designer</SubType>
     </MauiXaml>
+    <MauiXaml Update="Views\GardenCare\PestControlPage.xaml">
+      <SubType>Designer</SubType>
+    </MauiXaml>
+    <MauiXaml Update="Views\GardenCare\SoilAndMulchPage.xaml">
+      <SubType>Designer</SubType>
+    </MauiXaml>
     <MauiXaml Update="Views\Plants\SeasonalPlantsPage.xaml">
       <SubType>Designer</SubType>
     </MauiXaml>

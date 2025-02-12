@@ -63,6 +63,9 @@
 	</ItemGroup>
 
 	<ItemGroup>
+	  <Compile Update="Views\GardenCare\SoilAndMulchPage.xaml.cs">
+	    <DependentUpon>SoilAndMulchPage.xaml</DependentUpon>
+	  </Compile>
 	  <Compile Update="Views\Plants\SeasonalPlantsPage.xaml.cs">
 	    <DependentUpon>SeasonalPlantsPage.xaml</DependentUpon>
 	  </Compile>
@@ -76,6 +79,12 @@
 
 	<ItemGroup>
 	  <MauiXaml Update="Views\GardenCare\FertilizersPage.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
+	  <MauiXaml Update="Views\GardenCare\PestControlPage.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
+	  <MauiXaml Update="Views\GardenCare\SoilAndMulchPage.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
 	  <MauiXaml Update="Views\Plants\SeasonalPlantsPage.xaml">

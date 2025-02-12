@@ -64,6 +64,18 @@ build_metadata.AdditionalFiles.ManifestResourceName = GardenApp.Views.GardenCare
 build_metadata.AdditionalFiles.TargetPath = Views\GardenCare\GardenCarePage.xaml
 build_metadata.AdditionalFiles.RelativePath = Views\GardenCare\GardenCarePage.xaml
 
+[C:/Users/aronm/Desktop/GardenApp/Views/GardenCare/PestControlPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = GardenApp.Views.GardenCare.PestControlPage.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\GardenCare\PestControlPage.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\GardenCare\PestControlPage.xaml
+
+[C:/Users/aronm/Desktop/GardenApp/Views/GardenCare/SoilAndMulchPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = GardenApp.Views.GardenCare.SoilAndMulchPage.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\GardenCare\SoilAndMulchPage.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\GardenCare\SoilAndMulchPage.xaml
+
 [C:/Users/aronm/Desktop/GardenApp/Views/Home/HomePage.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = GardenApp.Views.Home.HomePage.xaml

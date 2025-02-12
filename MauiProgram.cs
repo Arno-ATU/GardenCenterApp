@@ -29,6 +29,8 @@ namespace GardenApp
             builder.Services.AddTransient<PowerToolsPage>();
             builder.Services.AddTransient<WateringToolsPage>();
             builder.Services.AddTransient<FertilizersPage>();
+            builder.Services.AddTransient<PestControlPage>();
+            builder.Services.AddTransient<SoilAndMulchPage>();
 
             // Register ViewModels
             builder.Services.AddTransient<HomeViewModel>();
@@ -42,6 +44,8 @@ namespace GardenApp
             builder.Services.AddTransient<PowerToolsViewModel>();
             builder.Services.AddTransient<WateringToolsViewModel>();
             builder.Services.AddTransient<FertilizersViewModel>();
+            builder.Services.AddTransient<PestControlViewModel>();
+            builder.Services.AddTransient<SoilAndMulchViewModel>();
 
 #if DEBUG
             builder.Logging.AddDebug();

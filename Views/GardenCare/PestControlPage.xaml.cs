@@ -4,9 +4,10 @@ namespace GardenApp.Views
 {
     public partial class PestControlPage:ContentPage
     {
-        public PestControlPage()
+        public PestControlPage(PestControlViewModel viewModel)
         {
             InitializeComponent();
+            BindingContext = viewModel;
         }
     }
 }

@@ -13,10 +13,12 @@ namespace GardenApp.ViewModels
 
         public decimal Total => _cartService.GetTotal();
 
+        public bool IsCartEmpty => _cartService.Items.Count == 0;
+
         public Command<string> RemoveFromCartCommand { get; }
         public Command CheckoutCommand { get; }
-
-        public bool CanCheckout => _cartService.Items.Count > 0;
+        public Command ContinueShoppingCommand { get; }
+        public Command LogoutCommand { get; }
 
         public CartViewModel(CartService cartService, AuthService authService)
         {
@@ -24,10 +26,13 @@ namespace GardenApp.ViewModels
             _authService = authService;
             RemoveFromCartCommand = new Command<string>(OnRemoveFromCart);
             CheckoutCommand = new Command(OnCheckout);
+            ContinueShoppingCommand = new Command(OnContinueShopping);
+            LogoutCommand = new Command(OnLogout);
+
             _cartService.CartChanged += (_, _) =>
             {
                 OnPropertyChanged(nameof(Total));
-                OnPropertyChanged(nameof(CanCheckout));
+                OnPropertyChanged(nameof(IsCartEmpty));
             };
         }
 
@@ -50,6 +55,17 @@ namespace GardenApp.ViewModels
             }
 
             await Shell.Current.GoToAsync("checkout");
+        }
+
+        private async void OnContinueShopping()
+        {
+            await Shell.Current.GoToAsync("//Home");
+        }
+
+        private async void OnLogout()
+        {
+            _authService.Logout();
+            await Shell.Current.GoToAsync("//login");
         }
     }
 }

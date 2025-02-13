@@ -1,4 +1,4 @@
-﻿using System.Windows.Input;
+using System.Windows.Input;
 
 namespace GardenApp.ViewModels
 {
@@ -10,7 +10,24 @@ namespace GardenApp.ViewModels
         {
             NavigateCommand = new Command<string>(async (route) =>
             {
-                await Shell.Current.GoToAsync($"//{route}");
+                switch (route.ToLower())
+                {
+                    case "plants":
+                        await Shell.Current.GoToAsync("//Plants");
+                        break;
+                    case "tools":
+                        await Shell.Current.GoToAsync("//Tools");
+                        break;
+                    case "gardencare":
+                        await Shell.Current.GoToAsync("//GardenCare");
+                        break;
+                    case "cart":
+                        await Shell.Current.GoToAsync("cart");
+                        break;
+                    default:
+                        // Optional: handle unexpected routes
+                        break;
+                }
             });
         }
     }

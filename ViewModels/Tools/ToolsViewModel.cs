@@ -15,7 +15,7 @@ namespace GardenApp.ViewModels
             {
                 try
                 {
-                    // Ensure the route is lowercase and uses the correct path
+                    // Ensuring here that the route is lowercase and uses the correct path
                     string navigationRoute = route.ToLower() switch
                     {
                         "handtools" => "tools/hand-tools",
@@ -28,7 +28,7 @@ namespace GardenApp.ViewModels
                 }
                 catch (Exception ex)
                 {
-                    // Log the error
+                    // Log errors
                     System.Diagnostics.Debug.WriteLine($"Navigation error: {ex.Message}");
                     System.Diagnostics.Debug.WriteLine($"Stack trace: {ex.StackTrace}");
 

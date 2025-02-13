@@ -3,8 +3,11 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="GardenApp.Views.CartPage"
              Title="Shopping Cart">
-    <Grid RowDefinitions="*, Auto, Auto" Padding="20">
-        <ListView ItemsSource="{Binding CartItems}" HasUnevenRows="True" Grid.Row="0">
+    <Grid RowDefinitions="*, Auto" Padding="20">
+        <ListView ItemsSource="{Binding CartItems}" 
+                  HasUnevenRows="True"
+                  IsVisible="{Binding CartItems.Count, Converter={StaticResource IntToBoolConverter}}"
+                  Grid.Row="0">
             <ListView.ItemTemplate>
                 <DataTemplate>
                     <ViewCell>
@@ -35,7 +38,34 @@
             </ListView.ItemTemplate>
         </ListView>
 
-        <StackLayout Grid.Row="1" Orientation="Horizontal" HorizontalOptions="End" Margin="0,20,0,0">
+        <!-- Empty Cart Message -->
+        <VerticalStackLayout 
+            Grid.Row="0"
+            IsVisible="{Binding IsCartEmpty}"
+            HorizontalOptions="Center" 
+            VerticalOptions="Center"
+            Spacing="20">
+            <Label Text="Thank you for shopping with us!"
+                   FontSize="24"
+                   FontAttributes="Bold"
+                   HorizontalOptions="Center"/>
+
+            <HorizontalStackLayout Spacing="10" HorizontalOptions="Center">
+                <Button Text="Continue Shopping" 
+                        Command="{Binding ContinueShoppingCommand}"
+                        Style="{StaticResource PrimaryButton}"/>
+
+                <Button Text="Log Out" 
+                        Command="{Binding LogoutCommand}"
+                        Style="{StaticResource SecondaryButton}"/>
+            </HorizontalStackLayout>
+        </VerticalStackLayout>
+
+        <StackLayout Grid.Row="1" 
+                     Orientation="Horizontal" 
+                     HorizontalOptions="End" 
+                     Margin="0,20,0,0"
+                     IsVisible="{Binding CartItems.Count, Converter={StaticResource IntToBoolConverter}}">
             <Label Text="Total:" 
                    FontSize="20" 
                    FontAttributes="Bold" 
@@ -46,13 +76,12 @@
                    TextColor="{StaticResource Primary}"
                    Margin="10,0,0,0"
                    VerticalOptions="Center"/>
-        </StackLayout>
 
-        <Button Grid.Row="2" 
-                Text="Checkout" 
-                Command="{Binding CheckoutCommand}"
-                Style="{StaticResource PrimaryButton}"
-                Margin="0,20,0,0"
-                IsEnabled="{Binding CanCheckout}"/>
+            <Button Text="Checkout" 
+                    Command="{Binding CheckoutCommand}"
+                    Style="{StaticResource PrimaryButton}"
+                    Margin="20,0,0,0"
+                    IsEnabled="{Binding CanCheckout}"/>
+        </StackLayout>
     </Grid>
 </ContentPage>

@@ -4,9 +4,10 @@ namespace GardenApp.Views
 {
     public partial class SoilAndMulchPage:ContentPage
     {
-        public SoilAndMulchPage()
+        public SoilAndMulchPage(SoilAndMulchViewModel viewModel)
         {
             InitializeComponent();
+            BindingContext = viewModel;
         }
     }
 }

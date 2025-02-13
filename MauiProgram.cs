@@ -21,7 +21,8 @@ namespace GardenApp
             // Register services
             builder.Services.AddSingleton<AuthService>();
             builder.Services.AddSingleton<UserService>();
-            builder.Services.AddTransient<AppShellViewModel>();
+            builder.Services.AddSingleton<CartService>();
+            
 
             // Register Views
             builder.Services.AddTransient<LoginPage>();
@@ -41,6 +42,8 @@ namespace GardenApp
             builder.Services.AddTransient<CartPage>();
 
             // Register ViewModels
+
+            builder.Services.AddTransient<AppShellViewModel>();
             builder.Services.AddTransient<LoginViewModel>();
             builder.Services.AddTransient<HomeViewModel>();
             builder.Services.AddTransient<PlantsViewModel>();
@@ -55,6 +58,7 @@ namespace GardenApp
             builder.Services.AddTransient<FertilizersViewModel>();
             builder.Services.AddTransient<PestControlViewModel>();
             builder.Services.AddTransient<SoilAndMulchViewModel>();
+            builder.Services.AddTransient<CartViewModel>();
 
 #if DEBUG
             builder.Logging.AddDebug();

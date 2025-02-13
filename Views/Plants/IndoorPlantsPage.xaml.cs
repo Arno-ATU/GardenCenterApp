@@ -4,10 +4,10 @@ namespace GardenApp.Views
 {
     public partial class IndoorPlantsPage:ContentPage
     {
-        public IndoorPlantsPage()
+        public IndoorPlantsPage(IndoorPlantsViewModel viewModel)
         {
             InitializeComponent();
-            BindingContext = new IndoorPlantsViewModel();
+            BindingContext = viewModel;
         }
     }
 }

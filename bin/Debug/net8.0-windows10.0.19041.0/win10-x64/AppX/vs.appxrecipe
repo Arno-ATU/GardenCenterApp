@@ -29,7 +29,7 @@
     <AppXManifest Include="C:\Users\aronm\Desktop\GardenApp\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2025-02-13T15:17:43.728</Modified>
+      <Modified>2025-02-13T15:24:14.996</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
@@ -43,11 +43,11 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\aronm\Desktop\GardenApp\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\GardenApp.dll">
       <PackagePath>GardenApp.dll</PackagePath>
-      <Modified>2025-02-13T15:17:43.243</Modified>
+      <Modified>2025-02-13T15:24:13.916</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\aronm\Desktop\GardenApp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\apphost.exe">
       <PackagePath>GardenApp.exe</PackagePath>
-      <Modified>2025-02-13T15:17:43.250</Modified>
+      <Modified>2025-02-13T15:24:13.959</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\aronm\Desktop\GardenApp\Resources\Raw\AboutAssets.txt">
       <PackagePath>AboutAssets.txt</PackagePath>

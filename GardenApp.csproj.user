@@ -24,9 +24,6 @@
     <MauiXaml Update="Views\Plants\OutdoorPlantsPage.xaml">
       <SubType>Designer</SubType>
     </MauiXaml>
-    <MauiXaml Update="Views\Plants\SeasonalPlantsPage.xaml">
-      <SubType>Designer</SubType>
-    </MauiXaml>
     <MauiXaml Update="Views\GardenCare\GardenCarePage.xaml">
       <SubType>Designer</SubType>
     </MauiXaml>
@@ -34,6 +31,9 @@
       <SubType>Designer</SubType>
     </MauiXaml>
     <MauiXaml Update="Views\Plants\PlantsPage.xaml">
+      <SubType>Designer</SubType>
+    </MauiXaml>
+    <MauiXaml Update="Views\Plants\SeasonalPlantsPage.xaml">
       <SubType>Designer</SubType>
     </MauiXaml>
     <MauiXaml Update="Views\Tools\HandToolsPage.xaml">

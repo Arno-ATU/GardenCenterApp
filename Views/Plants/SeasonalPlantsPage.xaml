@@ -5,10 +5,6 @@
              x:Class="GardenApp.Views.SeasonalPlantsPage"
              Title="Seasonal Plants">
 
-    <ContentPage.BindingContext>
-        <viewmodels:SeasonalPlantsViewModel/>
-    </ContentPage.BindingContext>
-
     <Grid RowDefinitions="Auto,*" 
           Padding="20"
           BackgroundColor="{AppThemeBinding Light={StaticResource White}, Dark={StaticResource Black}}">
@@ -23,7 +19,8 @@
                    Text="Seasonal Plants"
                    FontSize="24"
                    FontAttributes="Bold"
-                   HorizontalOptions="Center"/>
+                   HorizontalOptions="Center"
+                   VerticalOptions="Center"/>
         </Grid>
 
         <!-- Products List -->

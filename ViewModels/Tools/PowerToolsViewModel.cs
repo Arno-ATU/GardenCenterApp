@@ -2,11 +2,13 @@ using System.Collections.ObjectModel;
 using System.Text.Json;
 using System.Windows.Input;
 using GardenApp.Models;
+using GardenApp.Services;
 
 namespace GardenApp.ViewModels
 {
     public class PowerToolsViewModel:BaseViewModel
     {
+        private readonly CartService _cartService;
         private ObservableCollection<Product> _products;
         public ObservableCollection<Product> Products
         {
@@ -17,46 +19,30 @@ namespace GardenApp.ViewModels
         public ICommand GoBackCommand { get; }
         public ICommand AddToCartCommand { get; }
 
-        public PowerToolsViewModel()
+        public PowerToolsViewModel(CartService cartService)
         {
+            _cartService = cartService;
             LoadProducts();
             GoBackCommand = new Command(async () => await Shell.Current.GoToAsync(".."));
-            AddToCartCommand = new Command<string>(AddToCart);
+            AddToCartCommand = new Command<string>(OnAddToCart);
         }
 
         private void LoadProducts()
         {
             try
             {
-                // Use application base directory and combine with relative path
                 var jsonPath = Path.Combine(AppContext.BaseDirectory, "Data", "Products.json");
-
-                // More detailed logging
-                System.Diagnostics.Debug.WriteLine($"Attempting to read JSON from: {jsonPath}");
-                System.Diagnostics.Debug.WriteLine($"File exists: {File.Exists(jsonPath)}");
-
-                // Read the JSON file
                 var jsonString = File.ReadAllText(jsonPath);
-
-                // Configure JSON deserialization options
                 var options = new JsonSerializerOptions
                 {
                     PropertyNameCaseInsensitive = true
                 };
-
-                // Deserialize the JSON
                 var productData = JsonSerializer.Deserialize<ProductCatalog>(jsonString, options);
 
-                // Find the Tools category
-                var toolsCategory = productData.Categories
-                    .FirstOrDefault(c => c.Name == "Tools");
+                var toolsCategory = productData?.Categories?.FirstOrDefault(c => c.Name == "Tools");
+                var powerToolsSubcategory = toolsCategory?.Subcategories?.FirstOrDefault(sc => sc.Name == "Power Tools");
 
-                // Find Power Tools subcategory
-                var powerToolsSubcategory = toolsCategory.Subcategories
-                    .FirstOrDefault(sc => sc.Name == "Power Tools");
-
-                // Map JSON products to Product instances
-                var powerTools = powerToolsSubcategory.Products
+                var powerTools = powerToolsSubcategory?.Products?
                     .Select(p => new Product
                     {
                         Id = p.Id,
@@ -66,34 +52,24 @@ namespace GardenApp.ViewModels
                         Category = "Tools",
                         Subcategory = "Power Tools"
                     })
-                    .ToList();
+                    .ToList() ?? new List<Product>();
 
-                // Log power tools details
-                System.Diagnostics.Debug.WriteLine($"Total Power Tools: {powerTools.Count}");
-                foreach (var tool in powerTools)
-                {
-                    System.Diagnostics.Debug.WriteLine($"Tool: {tool.Name}, Price: {tool.Price}");
-                }
-
-                // Convert to ObservableCollection
                 Products = new ObservableCollection<Product>(powerTools);
             }
             catch (Exception ex)
             {
-                // Comprehensive error logging
-                System.Diagnostics.Debug.WriteLine($"Error loading products: {ex.Message}");
-                System.Diagnostics.Debug.WriteLine($"Stack Trace: {ex.StackTrace}");
+                Console.WriteLine($"Error loading products: {ex.Message}");
                 Products = new ObservableCollection<Product>();
             }
         }
 
-        private void AddToCart(string productId)
+        private void OnAddToCart(string productId)
         {
             var product = Products.FirstOrDefault(p => p.Id == productId);
             if (product != null)
             {
-                Application.Current.MainPage.DisplayAlert("Added to Cart",
-                    $"{product.Name} added to your cart", "OK");
+                _cartService.AddToCart(product);
+                Application.Current.MainPage.DisplayAlert("Added to Cart", $"{product.Name} added to your cart", "OK");
             }
         }
     }

@@ -4,9 +4,10 @@ namespace GardenApp.Views
 {
     public partial class PowerToolsPage:ContentPage
     {
-        public PowerToolsPage()
+        public PowerToolsPage(PowerToolsViewModel viewModel)
         {
             InitializeComponent();
+            BindingContext = viewModel;
         }
     }
 }

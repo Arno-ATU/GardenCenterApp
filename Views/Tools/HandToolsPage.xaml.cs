@@ -4,9 +4,10 @@ namespace GardenApp.Views
 {
     public partial class HandToolsPage:ContentPage
     {
-        public HandToolsPage()
+        public HandToolsPage(HandToolsViewModel viewModel)
         {
             InitializeComponent();
+            BindingContext = viewModel;
         }
     }
 }

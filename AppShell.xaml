@@ -54,7 +54,7 @@
         </ShellContent>
     </TabBar>
 
-    <!-- Optional: Add Checkout as a ShellContent if needed -->
+    <!--  Add Checkout as a ShellContent if needed -->
     <ShellContent
         Route="checkout"
         ContentTemplate="{DataTemplate views:CheckoutPage}"

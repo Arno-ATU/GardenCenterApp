@@ -36,7 +36,7 @@ namespace GardenApp.Services
             string jsonString = JsonSerializer.Serialize(data);
             string filePath = Path.Combine(FileSystem.AppDataDirectory, UsersFileName);
 
-            // Ensure the directory exists
+            // To make ssure the directory exists
             Directory.CreateDirectory(Path.GetDirectoryName(filePath));
 
             File.WriteAllText(filePath, jsonString);

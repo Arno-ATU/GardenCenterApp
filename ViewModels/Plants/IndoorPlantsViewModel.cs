@@ -74,7 +74,7 @@ namespace GardenApp.ViewModels
         }
     }
 
-    // These classes should be moved to separate files if they're not already
+    
     public class ProductCatalog
     {
         public List<Category> Categories { get; set; }

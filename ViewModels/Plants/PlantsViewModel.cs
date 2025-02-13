@@ -17,7 +17,7 @@ namespace GardenApp.ViewModels
 
                     string navigationRoute = route.ToLower() switch
                     {
-                        "indoorplants" => "plants/indoor-plants",  // Remove the // at start
+                        "indoorplants" => "plants/indoor-plants",  
                         "outdoorplants" => "plants/outdoor-plants",
                         "seasonalplants" => "plants/seasonal-plants",
                         _ => throw new ArgumentException($"Unknown route: {route}")

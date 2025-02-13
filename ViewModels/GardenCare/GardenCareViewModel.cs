@@ -14,7 +14,7 @@ namespace GardenApp.ViewModels
             {
                 try
                 {
-                    // Ensure the route is lowercase and uses the correct path
+                    // Ensure here tthat the route is lowercase and uses the correct path
                     string navigationRoute = route.ToLower() switch
                     {
                         "fertilizers" => "gardencare/fertilizers",

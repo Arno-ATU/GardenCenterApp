@@ -25,7 +25,7 @@ namespace GardenApp.ViewModels
                         await Shell.Current.GoToAsync("cart");
                         break;
                     default:
-                        // Optional: handle unexpected routes
+                        // Optional to handle unexpected routes
                         break;
                 }
             });

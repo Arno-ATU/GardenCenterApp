@@ -79,7 +79,7 @@ namespace GardenApp.ViewModels
             // Clear the cart after successful checkout
             _cartService.ClearCart();
 
-            // Navigate back to home page
+            //  back to home page
             await Shell.Current.GoToAsync("//main");
         }
     }

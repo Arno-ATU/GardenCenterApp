@@ -4,9 +4,10 @@ namespace GardenApp.Views
 {
     public partial class FertilizersPage:ContentPage
     {
-        public FertilizersPage()
+        public FertilizersPage(FertilizersViewModel viewModel)
         {
             InitializeComponent();
+            BindingContext = viewModel;
         }
     }
 }

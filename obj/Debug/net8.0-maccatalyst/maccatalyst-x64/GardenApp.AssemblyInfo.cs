@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("GardenApp")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0+b3e5e2a175dfc0c3bfe1a46e5a2a1725c0452fc6")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0+67d869e490ef332b5f5d47c9971e0c993d9be61b")]
 [assembly: System.Reflection.AssemblyProductAttribute("GardenApp")]
 [assembly: System.Reflection.AssemblyTitleAttribute("GardenApp")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

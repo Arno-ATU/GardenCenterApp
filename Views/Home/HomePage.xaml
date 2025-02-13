@@ -115,7 +115,7 @@
                        FontSize="22"
                        FontAttributes="Bold"
                        HorizontalOptions="Center"/>
-                <Label Text="Check our daily deals and seasonal specials"
+                <Label Text="Find the best Products and the best Deals!"
                        FontSize="16"
                        HorizontalOptions="Center"/>
             </VerticalStackLayout>

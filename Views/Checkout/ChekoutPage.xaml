@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="GardenApp.Views.CheckoutPage"
+             Title="Checkout">
+    <!-- Placeholder content -->
+    <VerticalStackLayout>
+        <Label Text="Checkout Page" 
+               HorizontalOptions="Center" 
+               VerticalOptions="Center" />
+    </VerticalStackLayout>
+
+    <Grid RowDefinitions="Auto,*,Auto" Padding="20">
+        <!-- User Type Header -->
+        <Label Grid.Row="0" 
+               Text="{Binding HeaderText}" 
+               FontSize="24" 
+               FontAttributes="Bold" 
+               HorizontalOptions="Center"/>
+
+        <!-- Cart Items List -->
+        <ListView Grid.Row="1" 
+                  ItemsSource="{Binding CartItems}" 
+                  HasUnevenRows="True">
+            <ListView.ItemTemplate>
+                <DataTemplate>
+                    <ViewCell>
+                        <Grid Padding="10" ColumnDefinitions="*, Auto, Auto">
+                            <Label Text="{Binding Product.Name}" 
+                                   Grid.Column="0" 
+                                   FontAttributes="Bold"/>
+                            <Label Text="{Binding Product.Price, StringFormat='${0:F2}'}" 
+                                   Grid.Column="1"/>
+                            <Label Text="{Binding Quantity, StringFormat='x {0}'}" 
+                                   Grid.Column="2"/>
+                        </Grid>
+                    </ViewCell>
+                </DataTemplate>
+            </ListView.ItemTemplate>
+        </ListView>
+
+        <!-- Total and Checkout Button -->
+        <Grid Grid.Row="2" ColumnDefinitions="*,*">
+            <Label Grid.Column="0" 
+                   Text="Total:" 
+                   FontSize="20" 
+                   FontAttributes="Bold"/>
+            <Label Grid.Column="1" 
+                   Text="{Binding Total, StringFormat='${0:F2}'}" 
+                   FontSize="24" 
+                   FontAttributes="Bold" 
+                   HorizontalOptions="End"/>
+
+            <Button Grid.Column="0" 
+                    Grid.ColumnSpan="2" 
+                    Text="{Binding CheckoutButtonText}"
+                    Command="{Binding CheckoutCommand}"
+                    Style="{StaticResource PrimaryButton}"
+                    Margin="0,20,0,0"/>
+        </Grid>
+    </Grid>
+</ContentPage>

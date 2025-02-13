@@ -54,6 +54,12 @@ build_metadata.AdditionalFiles.ManifestResourceName = GardenApp.Views.Cart.CartP
 build_metadata.AdditionalFiles.TargetPath = Views\Cart\CartPage.xaml
 build_metadata.AdditionalFiles.RelativePath = Views\Cart\CartPage.xaml
 
+[C:/Users/aronm/Desktop/GardenApp/Views/Checkout/ChekoutPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = GardenApp.Views.Checkout.ChekoutPage.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\Checkout\ChekoutPage.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\Checkout\ChekoutPage.xaml
+
 [C:/Users/aronm/Desktop/GardenApp/Views/GardenCare/FertilizersPage.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = GardenApp.Views.GardenCare.FertilizersPage.xaml

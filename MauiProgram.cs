@@ -40,6 +40,7 @@ namespace GardenApp
             builder.Services.AddTransient<PestControlPage>();
             builder.Services.AddTransient<SoilAndMulchPage>();
             builder.Services.AddTransient<CartPage>();
+            builder.Services.AddTransient<CheckoutPage>();
 
             // Register ViewModels
 
@@ -59,6 +60,7 @@ namespace GardenApp
             builder.Services.AddTransient<PestControlViewModel>();
             builder.Services.AddTransient<SoilAndMulchViewModel>();
             builder.Services.AddTransient<CartViewModel>();
+            builder.Services.AddTransient<CheckoutViewModel>();
 
 #if DEBUG
             builder.Logging.AddDebug();

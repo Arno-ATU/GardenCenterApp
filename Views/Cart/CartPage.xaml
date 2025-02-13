@@ -3,8 +3,8 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="GardenApp.Views.CartPage"
              Title="Shopping Cart">
-    <Grid RowDefinitions="*, Auto" Padding="20">
-        <ListView ItemsSource="{Binding CartItems}" HasUnevenRows="True">
+    <Grid RowDefinitions="*, Auto, Auto" Padding="20">
+        <ListView ItemsSource="{Binding CartItems}" HasUnevenRows="True" Grid.Row="0">
             <ListView.ItemTemplate>
                 <DataTemplate>
                     <ViewCell>
@@ -47,5 +47,12 @@
                    Margin="10,0,0,0"
                    VerticalOptions="Center"/>
         </StackLayout>
+
+        <Button Grid.Row="2" 
+                Text="Checkout" 
+                Command="{Binding CheckoutCommand}"
+                Style="{StaticResource PrimaryButton}"
+                Margin="0,20,0,0"
+                IsEnabled="{Binding CanCheckout}"/>
     </Grid>
 </ContentPage>

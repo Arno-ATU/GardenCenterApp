@@ -4,9 +4,10 @@ namespace GardenApp.Views
 {
     public partial class OutdoorPlantsPage:ContentPage
     {
-        public OutdoorPlantsPage()
+        public OutdoorPlantsPage(OutdoorPlantsViewModel viewModel)
         {
             InitializeComponent();
+            BindingContext = viewModel;
         }
     }
 }

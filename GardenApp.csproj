@@ -84,9 +84,6 @@
 	  <Compile Update="Views\Plants\SeasonalPlantsPage.xaml.cs">
 	    <DependentUpon>SeasonalPlantsPage.xaml</DependentUpon>
 	  </Compile>
-	  <Compile Update="Views\Plants\OutdoorPlantsPage.xaml.cs">
-	    <DependentUpon>OutdoorPlantsPage.xaml</DependentUpon>
-	  </Compile>
 	  <Compile Update="Views\Tools\PowerToolsPage.xaml.cs">
 	    <DependentUpon>PowerToolsPage.xaml</DependentUpon>
 	  </Compile>
@@ -108,10 +105,10 @@
 	  <MauiXaml Update="Views\Login\LoginPage.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
-	  <MauiXaml Update="Views\Plants\SeasonalPlantsPage.xaml">
+	  <MauiXaml Update="Views\Plants\OutdoorPlantsPage.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
-	  <MauiXaml Update="Views\Plants\OutdoorPlantsPage.xaml">
+	  <MauiXaml Update="Views\Plants\SeasonalPlantsPage.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
 	  <MauiXaml Update="Views\GardenCare\GardenCarePage.xaml">

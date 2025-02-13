@@ -21,10 +21,10 @@
     <MauiXaml Update="Views\Login\LoginPage.xaml">
       <SubType>Designer</SubType>
     </MauiXaml>
-    <MauiXaml Update="Views\Plants\SeasonalPlantsPage.xaml">
+    <MauiXaml Update="Views\Plants\OutdoorPlantsPage.xaml">
       <SubType>Designer</SubType>
     </MauiXaml>
-    <MauiXaml Update="Views\Plants\OutdoorPlantsPage.xaml">
+    <MauiXaml Update="Views\Plants\SeasonalPlantsPage.xaml">
       <SubType>Designer</SubType>
     </MauiXaml>
     <MauiXaml Update="Views\GardenCare\GardenCarePage.xaml">
